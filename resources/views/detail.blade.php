@@ -17,7 +17,6 @@
                 <div class="col"><h6>Writer</h6></div>
                 <div class="col"><h6>Publish Year</h6></div>
                 <div class="col"><h6>Publisher</h6></div>
-                <div class="col"><h6>Synopsis</h6></div>
             </div>
             <div class="col border border-dark">
                 <div class="col">{{ $book->id_book }}</div>
@@ -25,9 +24,10 @@
                 <div class="col">{{ $book->writer_book }}</div>
                 <div class="col">{{ $book->year_book }}</div>
                 <div class="col">{{ $book->publisher_book }}</div>
-                <div class="col">{{ $book->synopsis }}</div>
             </div>
         </div>
+        <h6>synopsis</h6>
+        <p>{{ $book->synopsis }}</p>
     </div>
 </body>
 </html>

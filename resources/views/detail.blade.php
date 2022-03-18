@@ -8,8 +8,8 @@
     <title>Detail Page</title>
 </head>
 <body>
-    <div class="container-sm position-absolute top-50 start-50 translate-middle"" >
-        <h1>{{ $book->title_book }}</h1>
+    <div class="container-sm position-absolute top-50 start-50  bg-light p-5 rounded translate-middle"" >
+        <h1 class="my-5">{{ $book->title_book }}</h1>
         <div class="row border border-dark">
             <div class="col border border-dark" >
                 <div class="col"><h6>ISBN</h6></div>
@@ -26,8 +26,9 @@
                 <div class="col">{{ $book->publisher_book }}</div>
             </div>
         </div>
-        <h6>synopsis</h6>
-        <p>{{ $book->synopsis }}</p>
+        <h6 class="my-3">synopsis</h6>
+        <p class="my-2">{{ $book->synopsis }}</p>
+        <a href="/" class="btn btn-primary my-2">Back to List</a>
     </div>
 </body>
 </html>

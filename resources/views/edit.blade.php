@@ -8,7 +8,7 @@
     <title>Edit</title>
 </head>
 <body>
-  <div class="container-sm">
+  <div class="container-sm bg-light rounded my-5">
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
           <span class="navbar-brand mb-0 h1">Edit Book Data</span>
@@ -40,7 +40,7 @@
             <span class="input-group-text">Synopsis</span>
             <textarea id="synopsis" name="synopsis" class="form-control"  value="{{ $book->synopsis  }}"aria-label="With textarea">{{ $book->synopsis  }}</textarea>
           </div>
-          <button type="submit" class="btn btn-primary btn-lg m-1">Edit Book</button>
+          <button type="submit" class="btn btn-primary btn-lg my-5">Edit Book</button>
       </form>
   </div>
 </body>

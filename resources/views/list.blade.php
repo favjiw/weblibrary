@@ -23,7 +23,7 @@
         </ul>
     </div> 
     @endif
-    <div class="container-md">
+    <div class="container-md my-5">
         <table class="table table-hover">
             <tr class="table table-dark table-striped">
                 <th>ISBN</th>
@@ -54,7 +54,7 @@
             </tr>
             @endforeach
         </table>
-    <a href="add" class="btn btn-primary">Tambah</a>
+    <a href="add" class="btn btn-primary">Add Book</a>
     </div>
 </body>
 </html>

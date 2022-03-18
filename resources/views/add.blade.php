@@ -8,7 +8,7 @@
     <title>Add Data</title>
 </head>
 <body>
-  <div class="container-sm">
+  <div class="container-sm bg-light rounded my-5">
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
           <span class="navbar-brand mb-0 h1">Add Book Data</span>
@@ -40,7 +40,7 @@
             <span class="input-group-text">Synopsis</span>
             <textarea id="synopsis" name="synopsis" class="form-control" aria-label="With textarea"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary btn-lg">Add Book</button>
+          <button type="submit" class="btn btn-primary btn-lg my-5">Submit Data</button>
       </form>
     </div>
 </body>
